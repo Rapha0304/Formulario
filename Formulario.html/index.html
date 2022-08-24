@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario | GN</title>
+    <link rel="stylesheet" type="text/css" href=""/>
+
+</head>
+   
+<body>
+    <div class="box">
+        <div class="form-header">
+        <form action="">
+             <legend><b>Formulario de Clientes</b></legend>
+        </div>
+       
+        <div class="inputBox">
+           <input type="text" name="nome" id="nome" class="inputUser" required>
+           <label for="nome"class="labelInput">Nome Completo</label>
+       </div>
+       <div class="inputBox">
+        <input type="text" name="email" id="email" class="inputUser" required>
+        <label for="email"class="labelInput">Email</label>
+        </div>
+        <div class="inputBox">
+        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+        <label for="telefone"class="labelInput">Telefone</label>
+        </div>
+        
+        <p>Sexo:</p>
+        <input type="radio" id="feminino" name="genero" value="feminino" required>
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino" required>
+        <label for="Masculino">Masculino</label>
+        <input type="radio" id="outro" name="genero" value="outro" required>
+        <label for="Outro">Outro</label>
+         
+        <div class="inputBox">
+            <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+            <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required>
+        </div>
+        <div class="inputBox">
+            <input type="text" name="cidade" id="cidade" class="inputUser" required>
+            <label for="cidade"class="labelInput">Cidade</label>
+        </div>
+        <div class="inputBox">
+            <input type="text" name="endereco" id="endereco" class="inputUser" required>
+            <label for="endereco"class="labelInput">Endereco</label>
+        </div>
+            <input type="submit" name="submit" id=submit>
+        </div>
+</body>
